@@ -8,13 +8,13 @@
     "postinstall": "node .scripts/badge.js"
   },
   "dependencies": {
-    "@types/jest": "^25.2.2",
-    "jest": "^26.0.1",
+    "@types/jest": "^25.2.3",
+    "jest": "^26.4.2",
     "underscore": "1.8.x"
   },
   "devDependencies": {
     "eslint": "^2.8.0",
-    "simple-git": "^2.5.0",
-    "line-replace": "^2.0.1"
+    "line-replace": "^2.0.1",
+    "simple-git": "^2.20.1"
   }
 }
