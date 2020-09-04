@@ -12,7 +12,7 @@ function reverseString(str) {
 
    * Can even be done on one line
    */
-  return str.split("".resers().join(""));//one line
+  return str.split("").reverse().join("");//one line
 }
 
 //capitalize: should return the input in all-caps

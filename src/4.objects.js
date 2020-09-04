@@ -12,12 +12,13 @@
 const personObject = {
   first_name: 'Mian', 
   last_name: 'Wang',
-  class_of: 'IT3049C-002', 
+  class_of: Number('3049002'), 
   full_name: function(first_name, last_name){
-    return first_name + '' + last_name;
+    return this.first_name+ ' ' + this.last_name;
   },
+
   introduction: function(){
-    alert('Nice to meet you, my name is' + '' + this.full_name + '' + 'I am a student of' + this.class_of+'.');
+    return this.full_name(this.first_name, this.last_name) + this.class_of;
   }
 };
 
